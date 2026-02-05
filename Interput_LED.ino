@@ -1,6 +1,3 @@
-
-// 💡 Corrected Code for Older ESP32 Core API (e.g., v3.3.2)
-
 hw_timer_t *timer = NULL;
 volatile bool ledState = false;
 const int ledPin = BUILTIN_LED;
